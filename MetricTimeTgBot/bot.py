@@ -1,4 +1,5 @@
 # @MetricTimeBot
+# app is running on pythonanywhere.com
 
 import telebot
 import config
