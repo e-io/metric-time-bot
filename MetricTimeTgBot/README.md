@@ -12,5 +12,5 @@ granny's obsolete Babylonian time to metric time and back.
 **Botpic:** 🖼 has a botpic (metric_clock.jpg)
 
 **Commands:**
-* /start - Basic information about this bot
-* /currentTime - Get current time in metric and baby formats 
+* start - Basic information about this bot
+* currentTime - Get current time in metric and baby formats 
