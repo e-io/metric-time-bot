@@ -1,10 +1,13 @@
 # Metric time bot
-## Telegram bot settings:
+## Telegram bot @MetricTimeBot info:
 
 **Name:** Metric time bot
 
 **Description:** This bot provides you current metric time (10h) and converts 
-granny's obsolete Babylonian time to metric time and back.
+granny's obsolete Babylonian time to metric time and back. You can press /start or 
+/currentTime as example
+
+*Description (or "What can this bot do?") appears when user opens bot for a first time*
 
 **About:** As you may know, metric time is the new revolutionary type of time measuring.
  This bot tells metric time and converts it
