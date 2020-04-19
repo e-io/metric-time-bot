@@ -1,5 +1,5 @@
-# @MetricTimeBot
-# app is running on pythonanywhere.com
+# @MetricTimeBot in telegram
+# app is running on heroku.com
 
 import telebot
 import config
