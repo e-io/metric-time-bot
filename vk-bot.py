@@ -14,4 +14,5 @@ while True:
         if event.type == VkEventType.MESSAGE_NEW:
             print(f'Мы получили сообщение в {str(datetime.strftime(datetime.now(), "%Hh%Mm%Ss"))}' \
                    f' от пользователя id{event.user_id}')
-            print('Текст сообщения: ' + str(event.text))
+            print(f'Текст сообщения: {str(event.text)}')
+            vk_session.method('messages.send', {'user_id': event.user_id, 'message': f'{str(event.text)} {str(event.text)}', 'random_id': 100500})
