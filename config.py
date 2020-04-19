@@ -1,1 +1,2 @@
-TOKEN='970024644:AAEPtaUinf9gswM3KvbG_hXJfSekVfI9otQ'
+tg_token = '970024644:AAEPtaUinf9gswM3KvbG_hXJfSekVfI9otQ'
+vk_token = "737ef653337c94e790ac5be5fcb67c33d3d0da8e66810ea156a30e0d3ed8c775396c64f2361f2deb2b88d"

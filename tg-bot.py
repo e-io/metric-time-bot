@@ -5,7 +5,7 @@ import telebot
 import config
 import datetime
 
-mybot = telebot.TeleBot(config.TOKEN)
+mybot = telebot.TeleBot(config.tg_token)
 
 @mybot.message_handler(commands=['start'])
 def start(message):
