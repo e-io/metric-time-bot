@@ -13,9 +13,7 @@ def current_metric_time():
     deciday = milliday // 100
     milliday = milliday - deciday * 100
     mtime = round(mtime, 5)
-    answer = f'''
-            Metric time now: {deciday}:{milliday}:{centimilliday} \n
-            or simply {mtime}. \n
-            Babylonian time: {time.hour}:{time.minute}:{time.second}
-            '''
+    answer = f'Metric time now: {deciday}:{milliday}:{centimilliday}\n' \
+            f'or simply {mtime}\n' \
+            f'Babylonian time: {time.hour}:{time.minute}:{time.second}'
     return answer
