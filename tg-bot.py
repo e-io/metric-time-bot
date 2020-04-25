@@ -2,8 +2,8 @@
 # app is running on heroku.com
 
 import telebot
-import config
 
+import config
 import metrictime
 
 mybot = telebot.TeleBot(config.tg_token)
