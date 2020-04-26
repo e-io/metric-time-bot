@@ -14,7 +14,7 @@ def start(message):
             Welcome to metric time world! \n
             now, you can get \current_time in metric time units
             '''
-    mybot.send_message(message.chat.id, 'Welcome to metric time world!')
+    mybot.send_message(message.chat.id, answer)
 
 @mybot.message_handler(commands=['current_time'])
 def current_time(message):
