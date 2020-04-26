@@ -1,3 +1,5 @@
 # /config.py
 /playground.py
 /playground2.py
+venv
+*.pyc

@@ -1,2 +1,2 @@
-worker: python tg-bot.py
-worker: python vk-bot.py
+tg-bot: python tg-bot.py
+vk-bot: python vk-bot.py
