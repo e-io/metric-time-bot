@@ -30,8 +30,8 @@ def current_time(message):
 @mybot.message_handler(content_types=['text'])
 def reply(message):
     answer = '''Выберите одну из команд:
-               \current_time - узнать текущее время в метрических единицах
-               \start - стартовая информация'''
+               /current_time - узнать текущее время в метрических единицах
+               /start - стартовая информация'''
     mybot.send_message(message.chat.id, answer)
 
 
