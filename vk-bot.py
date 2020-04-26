@@ -16,9 +16,11 @@ counter = 0
 while True:
     for event in longpoll.listen():
         if event.type == VkEventType.MESSAGE_NEW:
+            '''
             print(f'Мы получили сообщение в {str(datetime.strftime(datetime.now(), "%HH%MM%SS"))}' \
                   f' от пользователя id{event.user_id}')
             print(f'Текст сообщения: {str(event.text)}')
+            '''
             if event.from_user and not event.from_me:
                 counter = event.message_id + 1
                 vk_session.method('messages.send', {'user_id': event.user_id,
