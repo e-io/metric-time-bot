@@ -20,10 +20,11 @@ def current_metric_time():
     microdays -= millidays * 1000
     milliday -= deciday * 100
 
-    answer = f'Метрическое время (по Москве, GMT+3): {millidays} миллидней и {microdays} микродней\n' \
-             f'или просто {mtime}\n' \
-             f'В совмещенных терминах: {deciday}:{milliday}:{centimilliday}\n' \
-             f'{deciday} метрических часов {milliday}, метрических минут {centimilliday}, метрических секунд\n' \
-             f'Вавилонское время: {time.hour}:{time.minute}:{time.second}'
+    answer = f'Текущее московское время (GMT+3):' \
+             f'- в метрических единицах: {millidays} миллидней и {microdays} микродней\n' \
+             f'  или просто {mtime}\n' \
+             f'- в совмещенных единицах: {deciday}:{milliday}:{centimilliday}\n' \
+             f'  {deciday} метрических часов, {milliday} метрических минут, {centimilliday} метрических секунд\n' \
+             f'- в вавилонских единицах: {time.hour}:{time.minute}:{time.second}'
 
     return answer
